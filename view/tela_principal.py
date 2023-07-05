@@ -221,7 +221,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 msg.setWindowTitle('Erro ao atualizar')
                 msg.setText('Erro ao atualizar o item, verifique os dados inserido')
                 msg.exec()
-        self.popula_tabela_item_venda()
 
     def carrega_numero(self):
         db_venda = VendaRepository()
